@@ -9,5 +9,4 @@ return {
   { import = "astrocommunity.markdown-and-latex.markdown-preview-nvim"},
    -- Vim match-up: even better `%`
   { import = "astrocommunity.motion.vim-matchup" }, 
-  -- { import = "astrocommunity.completion.copilot-lua-cmp" },
 }

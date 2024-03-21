@@ -65,5 +65,11 @@ return {
        enable = false
      }
     },
-  }
+  },
+  {
+    "github/copilot.vim",
+    event = "VeryLazy",
+    version = '*',
+    autoStart = true,
+  },
 }

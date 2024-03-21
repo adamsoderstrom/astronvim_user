@@ -5,6 +5,16 @@
 -- automatically pick-up stored data by this setting.)
 return {
   -- first key is the mode
+  i = {
+    ["<S-Tab>"] = {
+       'copilot#Accept("\\<CR>")',
+         silent = true,
+         expr = true,
+         noremap = true,
+         replace_keycodes = false,
+         desc = "Accept Copilot suggestion",
+    },
+  },
   n = {
     -- second key is the lefthand side of the map
 
